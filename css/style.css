@@ -1,0 +1,208 @@
+* {
+  font-family: roboto;
+  font-size: 300;
+}
+
+nav {
+  height: 50px;
+  background-color: #212121;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  padding: 13px 70px;
+  margin: 0;
+  list-style: none;
+}
+
+.menu .menu_link {
+  font-size: 15px;
+  align-items: center;
+  color: #ffffff;
+  font-weight: 300;
+}
+
+.menu .menu_item {
+  border-right: 2px black dotted;
+  padding-right: 30px;
+}
+.menu .subheader {
+  height: 87px;
+  background: rgba(0, 0, 0, 0.6);
+}
+.menu .subheader .subheader_text {
+  font-size: 13px;
+  align-items: center;
+  color: #ffffff;
+  margin-top: 4px;
+}
+.menu .subheader .subheader_logo {
+  display: block;
+  min-width: 100%;
+  margin-top: 19px;
+}
+.subheader .subheader_call_text {
+  font-size: 12px;
+  color: #fff;
+  text-align: right;
+  margin-top: 20px;
+}
+
+.subheader .subheader_number {
+  font-size: 27px;
+  color: #fff;
+  text-align: right;
+  margin-top: 0px;
+}
+
+.subheader_btn,
+.main .main_btn {
+  margin-top: 22px;
+  width: 172px;
+  height: 46px;
+  background: linear-gradient(0deg, #1eacc7 0%, #4ce2ff 100%);
+  box-shadow: inset 0px -3px 0px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+  font-size: 14px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.main {
+  height: 800px;
+  background: url("../img/main_bg.png") center center/cover no-repeat;
+}
+
+.main h1 {
+  font-size: 60px;
+  color: #fff;
+  text-align: center;
+}
+
+.main h2,
+.reasons h2,
+.choise h2 {
+  font-size: 36px;
+  color: #fff;
+  text-align: center;
+}
+.main .main_text {
+  margin-top: 16px;
+  font-size: 18px;
+  color: #fff;
+  text-align: center;
+  line-height: 24px;
+}
+
+.main_btn {
+  display: block;
+  margin: 0 auto;
+  margin-top: 115px;
+}
+
+.reasons {
+  display: flex;
+}
+
+.reasons_block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 200px;
+}
+
+.reasons .reason_round {
+  background-color: #1eacc7;
+  border-radius: 100%;
+  width: 116px;
+  height: 116px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.reasons .reasons_block .reasons_descr {
+  width: 400px;
+  min-height: 150px;
+  margin-left: 20px;
+}
+
+.reasons .reasons_block .reasons_descr .reason_subtitle {
+  font-size: 18px;
+  color: #1eacc7;
+}
+
+.reasons .reasons_block .reasons_descr .reason_text {
+  font-size: 17px;
+  color: #202020;
+}
+
+.reasons h2,
+.app .app_subheader {
+  font-size: 38px;
+  color: #222222;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.reasons .label,
+.app .app_label {
+  width: 113px;
+  height: 24px;
+  background-color: black;
+  color: #fff;
+  margin: 23px auto;
+  text-transform: uppercase;
+  font-size: 11px;
+  text-align: center;
+  line-height: 24px;
+}
+
+.app {
+  background: url(../img/mobile_bg.png) center center/cover no-repeat;
+  padding-top: 30px;
+}
+
+.app .app_block {
+  display: flex;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.app .app_text {
+  font-size: 17px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.app .app_round {
+  width: 29px;
+  height: 29px;
+  border-radius: 100%;
+  border-color: black;
+}
+
+.choise {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 900px;
+}
+
+.choise .black_part {
+  height: 500px;
+  background-color: #070716;
+}
+
+.choise.white_part {
+  height: 400px;
+  background: url(../img/mobile_bg.png) center center/cover no-repeat;
+}
+
+.choise .choise_black_part {
+  height: 500px;
+  background-color: #070716;
+}
+
+.choise .car_img {
+}
